@@ -1,6 +1,6 @@
 ﻿namespace DemoLibrary;
 
-public class Logger
+public class Logger : ILogger
 {
     public void Log(string message)
     {
